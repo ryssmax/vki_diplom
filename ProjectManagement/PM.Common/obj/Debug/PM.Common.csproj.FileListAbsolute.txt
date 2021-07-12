@@ -1,0 +1,32 @@
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\PM.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\PM.Common.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\AutoMapper.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\Ninject.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\SendGrid.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\AutoMapper.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\Ninject.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\SendGrid.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\bin\Debug\SendGrid.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\obj\Debug\PM.Common.csprojAssemblyReference.cache
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\obj\Debug\PM.Common.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\obj\Debug\PM.Common.csproj.CopyComplete
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\obj\Debug\PM.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Common\obj\Debug\PM.Common.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\PM.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\PM.Common.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\AutoMapper.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\Ninject.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\SendGrid.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\AutoMapper.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\Ninject.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\SendGrid.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\bin\Debug\SendGrid.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\obj\Debug\PM.Common.csprojAssemblyReference.cache
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\obj\Debug\PM.Common.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\obj\Debug\PM.Common.csproj.CopyComplete
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\obj\Debug\PM.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Common\obj\Debug\PM.Common.pdb

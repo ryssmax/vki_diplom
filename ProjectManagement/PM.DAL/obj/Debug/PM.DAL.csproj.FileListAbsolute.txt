@@ -1,0 +1,12 @@
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\bin\Debug\PM.DAL.dll.config
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\bin\Debug\PM.DAL.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\bin\Debug\PM.DAL.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\obj\Debug\PM.DAL.csprojAssemblyReference.cache
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\obj\Debug\PM.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\obj\Debug\PM.DAL.csproj.CopyComplete
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\obj\Debug\PM.DAL.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.DAL\obj\Debug\PM.DAL.pdb

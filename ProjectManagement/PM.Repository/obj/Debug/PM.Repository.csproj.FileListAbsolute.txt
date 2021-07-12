@@ -1,0 +1,80 @@
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Repository.dll.config
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Repository.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Repository.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\AutoMapper.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\DynamicExpression.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\Ninject.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PagedList.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.DAL.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Model.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Model.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Repository.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\SendGrid.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Common.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.DAL.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.DAL.dll.config
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Model.Common.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Model.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PM.Repository.Common.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\AutoMapper.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\Ninject.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\PagedList.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\SendGrid.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\SendGrid.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\obj\Debug\PM.Repository.csprojAssemblyReference.cache
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\obj\Debug\PM.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\obj\Debug\PM.Repository.csproj.CopyComplete
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\obj\Debug\PM.Repository.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Repository\obj\Debug\PM.Repository.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Repository.dll.config
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Repository.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Repository.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\AutoMapper.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\DynamicExpression.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\Ninject.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PagedList.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.DAL.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Model.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Model.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Repository.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\SendGrid.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Common.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.DAL.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.DAL.dll.config
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Model.Common.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Model.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PM.Repository.Common.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\AutoMapper.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\Ninject.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\PagedList.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\SendGrid.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\SendGrid.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\obj\Debug\PM.Repository.csprojAssemblyReference.cache
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\obj\Debug\PM.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\obj\Debug\PM.Repository.csproj.CopyComplete
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\obj\Debug\PM.Repository.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Repository\obj\Debug\PM.Repository.pdb

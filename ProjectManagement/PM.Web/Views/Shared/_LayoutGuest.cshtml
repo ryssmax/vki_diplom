@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Every</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="icon" href="~/Content/img/favicon.ico"  type="image/x-icon">
+    <link rel="shortcut icon" href="~/Content/img/favicon.ico" type="image/x-icon">
+
+    @Styles.Render("~/Views/LandPage/css")
+
+</head>
+
+<body>
+    <div class="page-wrap">
+
+        <!-- header -->
+        <header class="header header--fixed">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo"> <a href="#"><img src="https://freesvg.org/img/Hachiryu-Akita-chapter.png" height="65" width="65" alt="" /></a></div><h6>Every</h6>
+                    <div class="header__menu">
+
+                        <!-- onepage-nav -->
+                        <nav class="onepage-nav">
+
+                            <!-- onepage-menu -->
+                            <ul class="onepage-menu">
+                                <li class="current-menu-item">
+                                    <a href="#id-1">Главная</a>
+                                </li>
+                                <li>
+                                    <a href="#id-2">О нас</a>
+                                </li>
+                                <li>
+                                    <a href="#id-3">Обучение</a>
+                                </li>
+                                <li>
+                                    <a href="#id-4">Блог</a>
+                                </li>
+                                <li>
+                                    <a href="#id-5">Обратная свзяь</a>
+                                </li>
+                                @{ if (Request.IsAuthenticated)
+                                    {
+                                        <li class="">
+                                            @using (Html.BeginForm("SignOut", "Security", new { area = "" }, FormMethod.Post, null))
+                                            {
+                                                @Html.AntiForgeryToken()
+                                                <button type="submit" class="btn btn-warning">Logout</button>}
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="">
+                                            @Html.ActionLink("Login", "Login", "Security")
+                                        </li>
+
+                                        <li class="">
+                                            @Html.ActionLink("Register", "Register", "Security")
+                                        </li>
+                                    } }
+
+                            </ul><!-- onepage-menu -->
+
+                            <div class="navbar-toggle"><span></span><span></span><span></span></div>
+                        </nav><!-- End / onepage-nav -->
+
+                    </div>
+                </div>
+            </div>
+        </header><!-- End / header -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+     
+        <div class="md-content">
+            @RenderBody()
+        </div>
+
+        <div class="footer">
+            <div id="back-to-top"><i class="pe-7s-angle-up"></i></div>
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__social">
+
+                        <!-- social-icon -->
+                        <a class="social-icon" href="https://www.instagram.com/lost.nmp/">
+                            <i class="social-icon__icon fa fa-instagram"></i>
+                        </a><!-- End / social-icon -->
+                        <!-- social-icon -->
+                        <a class="social-icon" href="https://vk.com/l_nmp">
+                            <i class="social-icon__icon fa fa-vk"></i>
+                        </a><!-- End / social-icon -->
+
+                    </div>
+                    <p class="footer__copy">2021 &copy; Copyright Every.</p>
+                </div>
+            </div>
+        </div><!-- End / footer -->
+        <!-- Vendors-->
+        @Scripts.Render("~/LandPage/core/js")
+    </div>
+</body>
+</html>
+

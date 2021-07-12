@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PMDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PMDatabaseEntities" annotation:LazyLoadingEnabled="false">
+    <EntitySet Name="Claims" EntityType="PMDatabaseModel.Claim" />
+    <EntitySet Name="Companies" EntityType="PMDatabaseModel.Company" />
+    <EntitySet Name="ExternalLogins" EntityType="PMDatabaseModel.ExternalLogin" />
+    <EntitySet Name="Projects" EntityType="PMDatabaseModel.Project" />
+    <EntitySet Name="Tasks" EntityType="PMDatabaseModel.Task" />
+    <EntitySet Name="TaskPriorities" EntityType="PMDatabaseModel.TaskPriority" />
+    <EntitySet Name="TaskStatus1" EntityType="PMDatabaseModel.TaskStatus" />
+    <AssociationSet Name="FK_Project_Company" Association="PMDatabaseModel.FK_Project_Company">
+      <End Role="Company" EntitySet="Companies" />
+      <End Role="Project" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Task_Project" Association="PMDatabaseModel.FK_Task_Project">
+      <End Role="Project" EntitySet="Projects" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Task_TaskPriority" Association="PMDatabaseModel.FK_Task_TaskPriority">
+      <End Role="TaskPriority" EntitySet="TaskPriorities" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Task_TaskStatus" Association="PMDatabaseModel.FK_Task_TaskStatus">
+      <End Role="TaskStatu" EntitySet="TaskStatus1" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <EntitySet Name="ProjectUsers" EntityType="PMDatabaseModel.ProjectUser" />
+    <AssociationSet Name="FK_ProjectUser_Project" Association="PMDatabaseModel.FK_ProjectUser_Project">
+      <End Role="Project" EntitySet="Projects" />
+      <End Role="ProjectUser" EntitySet="ProjectUsers" />
+    </AssociationSet>
+    <EntitySet Name="Roles" EntityType="PMDatabaseModel.Role" />
+    <EntitySet Name="Users" EntityType="PMDatabaseModel.User" />
+    <EntitySet Name="UserRoles" EntityType="PMDatabaseModel.UserRole" />
+    <AssociationSet Name="FK_dbo_Claim_dbo_User_UserId" Association="PMDatabaseModel.FK_dbo_Claim_dbo_User_UserId">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Claim" EntitySet="Claims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Company" Association="PMDatabaseModel.FK_User_Company">
+      <End Role="Company" EntitySet="Companies" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_ExternalLogin_dbo_User_UserId" Association="PMDatabaseModel.FK_dbo_ExternalLogin_dbo_User_UserId">
+      <End Role="User" EntitySet="Users" />
+      <End Role="ExternalLogin" EntitySet="ExternalLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Project_User" Association="PMDatabaseModel.FK_Project_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Project" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectUser_User" Association="PMDatabaseModel.FK_ProjectUser_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="ProjectUser" EntitySet="ProjectUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_UserRole_dbo_Role_RoleId" Association="PMDatabaseModel.FK_dbo_UserRole_dbo_Role_RoleId">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="UserRole" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Task_AssignedToUser" Association="PMDatabaseModel.FK_Task_AssignedToUser">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Task_CreatedByUser" Association="PMDatabaseModel.FK_Task_CreatedByUser">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_UserRole_dbo_User_UserId" Association="PMDatabaseModel.FK_dbo_UserRole_dbo_User_UserId">
+      <End Role="User" EntitySet="Users" />
+      <End Role="UserRole" EntitySet="UserRoles" />
+    </AssociationSet>
+    <EntitySet Name="TaskComments" EntityType="PMDatabaseModel.TaskComment" />
+    <AssociationSet Name="FK_TaskComent_Task" Association="PMDatabaseModel.FK_TaskComent_Task">
+      <End Role="Task" EntitySet="Tasks" />
+      <End Role="TaskComment" EntitySet="TaskComments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskComent_User" Association="PMDatabaseModel.FK_TaskComent_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="TaskComment" EntitySet="TaskComments" />
+    </AssociationSet>
+    <EntitySet Name="ProjectRoles" EntityType="PMDatabaseModel.ProjectRole" />
+    <AssociationSet Name="FK_ProjectUser_ProjectRole" Association="PMDatabaseModel.FK_ProjectUser_ProjectRole">
+      <End Role="ProjectRole" EntitySet="ProjectRoles" />
+      <End Role="ProjectUser" EntitySet="ProjectUsers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Claim">
+    <Key>
+      <PropertyRef Name="ClaimId" />
+    </Key>
+    <Property Name="ClaimId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="ClaimType" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimValue" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="PMDatabaseModel.FK_dbo_Claim_dbo_User_UserId" FromRole="Claim" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateUpdated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Projects" Relationship="PMDatabaseModel.FK_Project_Company" FromRole="Company" ToRole="Project" />
+    <NavigationProperty Name="Users" Relationship="PMDatabaseModel.FK_User_Company" FromRole="Company" ToRole="User" />
+  </EntityType>
+  <EntityType Name="ExternalLogin">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="ProviderKey" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="PMDatabaseModel.FK_dbo_ExternalLogin_dbo_User_UserId" FromRole="ExternalLogin" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="CompanyId" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateUpdated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Company" Relationship="PMDatabaseModel.FK_Project_Company" FromRole="Project" ToRole="Company" />
+    <NavigationProperty Name="Tasks" Relationship="PMDatabaseModel.FK_Task_Project" FromRole="Project" ToRole="Task" />
+    <Property Name="ProjectLeaderId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="ProjectUsers" Relationship="PMDatabaseModel.FK_ProjectUser_Project" FromRole="Project" ToRole="ProjectUser" />
+    <NavigationProperty Name="ProjectLeader" Relationship="PMDatabaseModel.FK_Project_User" FromRole="Project" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Task">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="ProjectId" Type="Guid" Nullable="false" />
+    <Property Name="CreatedByUserId" Type="Guid" Nullable="false" />
+    <Property Name="AssignedToUserId" Type="Guid" Nullable="false" />
+    <Property Name="StatusId" Type="Guid" Nullable="false" />
+    <Property Name="PriorityId" Type="Guid" Nullable="false" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DueDate" Type="DateTime" Precision="3" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateUpdated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Project" Relationship="PMDatabaseModel.FK_Task_Project" FromRole="Task" ToRole="Project" />
+    <NavigationProperty Name="TaskPriority" Relationship="PMDatabaseModel.FK_Task_TaskPriority" FromRole="Task" ToRole="TaskPriority" />
+    <NavigationProperty Name="TaskStatus" Relationship="PMDatabaseModel.FK_Task_TaskStatus" FromRole="Task" ToRole="TaskStatu" />
+    <NavigationProperty Name="AssignedToUser" Relationship="PMDatabaseModel.FK_Task_AssignedToUser" FromRole="Task" ToRole="User" />
+    <NavigationProperty Name="CreatedByUser" Relationship="PMDatabaseModel.FK_Task_CreatedByUser" FromRole="Task" ToRole="User" />
+    <Property Name="Progress" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="TaskComments" Relationship="PMDatabaseModel.FK_TaskComent_Task" FromRole="Task" ToRole="TaskComment" />
+  </EntityType>
+  <EntityType Name="TaskPriority">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Abrv" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateUpdated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Tasks" Relationship="PMDatabaseModel.FK_Task_TaskPriority" FromRole="TaskPriority" ToRole="Task" />
+    <Property Name="SortOrder" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TaskStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Abrv" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateUpdated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Tasks" Relationship="PMDatabaseModel.FK_Task_TaskStatus" FromRole="TaskStatu" ToRole="Task" />
+    <Property Name="SortOrder" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Project_Company">
+    <End Type="PMDatabaseModel.Company" Role="Company" Multiplicity="1" />
+    <End Type="PMDatabaseModel.Project" Role="Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Task_Project">
+    <End Type="PMDatabaseModel.Project" Role="Project" Multiplicity="1" />
+    <End Type="PMDatabaseModel.Task" Role="Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Task_TaskPriority">
+    <End Type="PMDatabaseModel.TaskPriority" Role="TaskPriority" Multiplicity="1" />
+    <End Type="PMDatabaseModel.Task" Role="Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaskPriority">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="PriorityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Task_TaskStatus">
+    <End Type="PMDatabaseModel.TaskStatus" Role="TaskStatu" Multiplicity="1" />
+    <End Type="PMDatabaseModel.Task" Role="Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaskStatu">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ProjectUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="ProjectId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateUpdated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Project" Relationship="PMDatabaseModel.FK_ProjectUser_Project" FromRole="ProjectUser" ToRole="Project" />
+    <NavigationProperty Name="User" Relationship="PMDatabaseModel.FK_ProjectUser_User" FromRole="ProjectUser" ToRole="User" />
+    <Property Name="ProjectRoleId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="ProjectRole" Relationship="PMDatabaseModel.FK_ProjectUser_ProjectRole" FromRole="ProjectUser" ToRole="ProjectRole" />
+  </EntityType>
+  <Association Name="FK_ProjectUser_Project">
+    <End Type="PMDatabaseModel.Project" Role="Project" Multiplicity="1" />
+    <End Type="PMDatabaseModel.ProjectUser" Role="ProjectUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectUser">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UserRoles" Relationship="PMDatabaseModel.FK_dbo_UserRole_dbo_Role_RoleId" FromRole="Role" ToRole="UserRole" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateUpdated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="CompanyId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="PasswordHash" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Claims" Relationship="PMDatabaseModel.FK_dbo_Claim_dbo_User_UserId" FromRole="User" ToRole="Claim" />
+    <NavigationProperty Name="Company" Relationship="PMDatabaseModel.FK_User_Company" FromRole="User" ToRole="Company" />
+    <NavigationProperty Name="ExternalLogins" Relationship="PMDatabaseModel.FK_dbo_ExternalLogin_dbo_User_UserId" FromRole="User" ToRole="ExternalLogin" />
+    <NavigationProperty Name="Projects" Relationship="PMDatabaseModel.FK_Project_User" FromRole="User" ToRole="Project" />
+    <NavigationProperty Name="ProjectUsers" Relationship="PMDatabaseModel.FK_ProjectUser_User" FromRole="User" ToRole="ProjectUser" />
+    <NavigationProperty Name="TasksAssigned" Relationship="PMDatabaseModel.FK_Task_AssignedToUser" FromRole="User" ToRole="Task" />
+    <NavigationProperty Name="TasksCreated" Relationship="PMDatabaseModel.FK_Task_CreatedByUser" FromRole="User" ToRole="Task" />
+    <NavigationProperty Name="UserRoles" Relationship="PMDatabaseModel.FK_dbo_UserRole_dbo_User_UserId" FromRole="User" ToRole="UserRole" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateUpdated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="PasswordResetToken" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="TaskComments" Relationship="PMDatabaseModel.FK_TaskComent_User" FromRole="User" ToRole="TaskComment" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="RoleId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Role" Relationship="PMDatabaseModel.FK_dbo_UserRole_dbo_Role_RoleId" FromRole="UserRole" ToRole="Role" />
+    <NavigationProperty Name="User" Relationship="PMDatabaseModel.FK_dbo_UserRole_dbo_User_UserId" FromRole="UserRole" ToRole="User" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <Association Name="FK_dbo_Claim_dbo_User_UserId">
+    <End Type="PMDatabaseModel.User" Role="User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="PMDatabaseModel.Claim" Role="Claim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Claim">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Company">
+    <End Type="PMDatabaseModel.Company" Role="Company" Multiplicity="1" />
+    <End Type="PMDatabaseModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_ExternalLogin_dbo_User_UserId">
+    <End Type="PMDatabaseModel.User" Role="User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="PMDatabaseModel.ExternalLogin" Role="ExternalLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ExternalLogin">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Project_User">
+    <End Type="PMDatabaseModel.User" Role="User" Multiplicity="1" />
+    <End Type="PMDatabaseModel.Project" Role="Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="ProjectLeaderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectUser_User">
+    <End Type="PMDatabaseModel.User" Role="User" Multiplicity="1" />
+    <End Type="PMDatabaseModel.ProjectUser" Role="ProjectUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_UserRole_dbo_Role_RoleId">
+    <End Type="PMDatabaseModel.Role" Role="Role" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="PMDatabaseModel.UserRole" Role="UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="UserRole">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Task_AssignedToUser">
+    <End Type="PMDatabaseModel.User" Role="User" Multiplicity="1" />
+    <End Type="PMDatabaseModel.Task" Role="Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="AssignedToUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Task_CreatedByUser">
+    <End Type="PMDatabaseModel.User" Role="User" Multiplicity="1" />
+    <End Type="PMDatabaseModel.Task" Role="Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="CreatedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_UserRole_dbo_User_UserId">
+    <End Type="PMDatabaseModel.User" Role="User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="PMDatabaseModel.UserRole" Role="UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserRole">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="TaskComment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="TaskId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="Text" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateUpdated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Task" Relationship="PMDatabaseModel.FK_TaskComent_Task" FromRole="TaskComment" ToRole="Task" />
+    <NavigationProperty Name="User" Relationship="PMDatabaseModel.FK_TaskComent_User" FromRole="TaskComment" ToRole="User" />
+  </EntityType>
+  <Association Name="FK_TaskComent_Task">
+    <End Type="PMDatabaseModel.Task" Role="Task" Multiplicity="1" />
+    <End Type="PMDatabaseModel.TaskComment" Role="TaskComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Task">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TaskComment">
+        <PropertyRef Name="TaskId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaskComent_User">
+    <End Type="PMDatabaseModel.User" Role="User" Multiplicity="1" />
+    <End Type="PMDatabaseModel.TaskComment" Role="TaskComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TaskComment">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ProjectRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Abrv" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SortOrder" Type="Int32" Nullable="false" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateUpdated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeStamp" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="ProjectUsersInRole" Relationship="PMDatabaseModel.FK_ProjectUser_ProjectRole" FromRole="ProjectRole" ToRole="ProjectUser" />
+  </EntityType>
+  <Association Name="FK_ProjectUser_ProjectRole">
+    <End Type="PMDatabaseModel.ProjectRole" Role="ProjectRole" Multiplicity="1" />
+    <End Type="PMDatabaseModel.ProjectUser" Role="ProjectUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProjectRole">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectUser">
+        <PropertyRef Name="ProjectRoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

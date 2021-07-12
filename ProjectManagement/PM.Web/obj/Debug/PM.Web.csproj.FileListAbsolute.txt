@@ -1,0 +1,390 @@
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Web.dll.config
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Web.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Web.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Antlr3.Runtime.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\AutoMapper.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Elmah.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Elmah.Mvc.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\EntityFramework.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Glimpse.AspNet.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Glimpse.Core.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Glimpse.Mvc5.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\GravatarHelper.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\GravatarHelper.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Owin.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Newtonsoft.Json.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Ninject.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Ninject.Web.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Ninject.Web.WebApi.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Owin.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PagedList.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PagedList.Mvc.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Model.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Repository.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Service.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Service.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Helpers.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Http.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Mvc.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Optimization.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Razor.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Webpages.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\WebActivatorEx.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\WebGrease.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\SendGrid.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Repository.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.DAL.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Model.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\DynamicExpression.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Linq.Dynamic.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Common.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Model.Common.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Repository.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Repository.dll.config
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Service.Common.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Service.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Antlr3.Runtime.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\AutoMapper.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\EntityFramework.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Owin.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Newtonsoft.Json.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Ninject.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Ninject.Web.Common.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Ninject.Web.Mvc.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\Ninject.Web.WebApi.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PagedList.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PagedList.Mvc.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Http.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Optimization.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Razor.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Webpages.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Helpers.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\System.Web.Mvc.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\SendGrid.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\SendGrid.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Repository.Common.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.DAL.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.DAL.dll.config
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\PM.Model.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\obj\Debug\PM.Web.csprojAssemblyReference.cache
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\obj\Debug\PM.Web.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\obj\Debug\PM.Web.csproj.CopyComplete
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\obj\Debug\PM.Web.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\obj\Debug\PM.Web.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\csc.exe
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\csc.exe.config
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\csc.rsp
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\csi.exe
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\csi.rsp
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\System.AppContext.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\vbc.exe
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\vbc.exe.config
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\vbc.rsp
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Антон\Desktop\ProjectManagement\PM.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\csc.exe
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\csc.exe.config
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\csc.rsp
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\csi.exe
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\csi.rsp
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\System.AppContext.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\vbc.exe
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\vbc.exe.config
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\vbc.rsp
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Web.dll.config
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Web.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Web.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Antlr3.Runtime.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\AutoMapper.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Elmah.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Elmah.Mvc.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\EntityFramework.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Glimpse.AspNet.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Glimpse.Core.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Glimpse.Mvc5.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\GravatarHelper.Common.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\GravatarHelper.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Owin.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Newtonsoft.Json.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Ninject.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Ninject.Web.Common.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Ninject.Web.WebApi.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Owin.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PagedList.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PagedList.Mvc.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Common.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Model.Common.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Repository.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Service.Common.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Service.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Helpers.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Http.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Mvc.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Optimization.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Razor.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Webpages.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\WebActivatorEx.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\WebGrease.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\SendGrid.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Repository.Common.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.DAL.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Model.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\DynamicExpression.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Linq.Dynamic.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Common.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Model.Common.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Repository.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Repository.dll.config
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Service.Common.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Service.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Antlr3.Runtime.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\AutoMapper.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\EntityFramework.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Owin.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Newtonsoft.Json.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Ninject.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Ninject.Web.Common.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Ninject.Web.Mvc.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\Ninject.Web.WebApi.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PagedList.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PagedList.Mvc.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Http.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Optimization.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Razor.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Webpages.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Helpers.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\System.Web.Mvc.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\SendGrid.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\SendGrid.xml
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Repository.Common.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.DAL.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.DAL.dll.config
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\bin\PM.Model.pdb
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\obj\Debug\PM.Web.csprojAssemblyReference.cache
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\obj\Debug\PM.Web.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\obj\Debug\PM.Web.csproj.CopyComplete
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\obj\Debug\PM.Web.dll
+C:\Users\Антон\Desktop\Диплом\Полезные папки\ProjectManagement\PM.Web\obj\Debug\PM.Web.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\csc.exe
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\csc.exe.config
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\csc.rsp
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\csi.exe
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\csi.rsp
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\System.AppContext.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\vbc.exe
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\vbc.exe.config
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\vbc.rsp
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Web.dll.config
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Web.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Web.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Antlr3.Runtime.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\AutoMapper.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Elmah.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Elmah.Mvc.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\EntityFramework.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Glimpse.AspNet.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Glimpse.Core.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Glimpse.Mvc5.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\GravatarHelper.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\GravatarHelper.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Owin.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Newtonsoft.Json.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Ninject.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Ninject.Web.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Ninject.Web.WebApi.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Owin.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PagedList.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PagedList.Mvc.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Model.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Repository.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Service.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Service.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Helpers.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Http.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Mvc.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Optimization.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Razor.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Webpages.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\WebActivatorEx.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\WebGrease.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\SendGrid.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Repository.Common.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.DAL.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Model.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\DynamicExpression.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Linq.Dynamic.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Common.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Model.Common.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Repository.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Repository.dll.config
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Service.Common.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Service.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Antlr3.Runtime.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\AutoMapper.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\EntityFramework.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Owin.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Newtonsoft.Json.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Ninject.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Ninject.Web.Common.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Ninject.Web.Mvc.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\Ninject.Web.WebApi.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PagedList.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PagedList.Mvc.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Http.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Optimization.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Razor.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Webpages.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Helpers.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\System.Web.Mvc.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\SendGrid.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\SendGrid.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Repository.Common.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.DAL.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.DAL.dll.config
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\PM.Model.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\obj\Debug\PM.Web.csprojAssemblyReference.cache
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\obj\Debug\PM.Web.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\obj\Debug\PM.Web.csproj.CopyComplete
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\obj\Debug\PM.Web.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\obj\Debug\PM.Web.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\ActionMailer.Net.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\ActionMailer.Net.Mvc.dll
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\ActionMailer.Net.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\ActionMailer.Net.xml
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\ActionMailer.Net.Mvc.pdb
+C:\Users\Антон\Desktop\Рабочий дипломм\ProjectManagement\PM.Web\bin\ActionMailer.Net.Mvc.xml

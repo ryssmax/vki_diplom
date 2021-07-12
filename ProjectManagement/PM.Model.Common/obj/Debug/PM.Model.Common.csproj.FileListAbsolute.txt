@@ -1,0 +1,9 @@
+C:\Users\Антон\Desktop\ProjectManagement\PM.Model.Common\bin\Debug\PM.Model.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Model.Common\bin\Debug\PM.Model.Common.pdb
+C:\Users\Антон\Desktop\ProjectManagement\PM.Model.Common\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Model.Common\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Антон\Desktop\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.csprojAssemblyReference.cache
+C:\Users\Антон\Desktop\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.csproj.CopyComplete
+C:\Users\Антон\Desktop\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.dll
+C:\Users\Антон\Desktop\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.pdb

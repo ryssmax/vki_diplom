@@ -1,0 +1,171 @@
+body {
+  background: #101010;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  margin-top: 50px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/*navigation css*/
+
+nav {
+  background-color: #101010;
+  height: 100%;
+  width: 18%;
+  /*over web page*/
+  position: fixed;
+  overflow: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+}
+
+nav,
+#info-holder,
+#welcome-page,
+#milestones-icons,
+#social-networks, #portfolio {
+  /*center to div*/
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: #FFFFFF;
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+li a:hover {
+  color: #FFFFFF;
+  transition: font-size .2s;
+  text-decoration: none;
+  font-size: 130%;
+}
+
+
+/*all*/
+
+h1 {
+  text-transform: uppercase;
+  font-size: 300%;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 150%;
+}
+
+#quote {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+  text-size: 200%;
+}
+
+
+/*welcome pannel*/
+
+#info-holder {
+  min-width: 250px;
+  width: 50%;
+  margin: 30px;
+  padding: 20px;
+  display: inline-flex;
+  vertical-align: middle;
+  background-color: #FFFDFD;
+  border-style: solid;
+  border-width: medium;
+}
+
+#info-info {
+  padding: 15px;
+}
+
+
+/*milestones*/
+
+.img-responsive {
+  padding: 30px;
+}
+
+.skill {
+  padding: 50px;
+}
+
+.milestones,
+.skills {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#milestone-icons {
+  display: inline-flex;
+}
+
+#edu-info {
+  text-transform: uppercase;
+}
+
+input,
+textarea,
+#send {
+  background-color: #FFFDFD;
+  margin: 10px;
+}
+
+.networks,.networks:after,.networks:active,.networks:focus {
+  width: 40%;
+  background-color: #FFFFFF;
+  color: #101010;
+  margin: 10px;
+  border-style: groove;
+  border-width: small;
+  border-color: black;
+}
+
+.btn-icons {
+  height: 30px;
+}
+
+.networks:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  transition: font-size .5s;
+  font-size: 130%;
+  background-color: #FFFFFF;
+  color: black;
+  border-style: groove;
+  border-width: small;
+  border-color: white;
+}
+
+.img-placeholder{
+  padding:0;
+  margin:10px;
+  height:200px;
+}
+
+.text-placeholder{
+  visibility:hidden;
+}
+
+#portfolio{
+  display:flex;
+}
